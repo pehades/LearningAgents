@@ -10,7 +10,8 @@ from agents.tools.geocoding import geocoding
 from agents.tools.time import get_current_local_time
 from agents.tools.weather import get_weather
 
-load_dotenv()
+load_dotenv('.env')
+load_dotenv('.env.local')
 
 time_format = '%Y-%m-%dT%H:%M:%S%z'
 
